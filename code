@@ -54,6 +54,8 @@ print(df1[["brand", "price"]].groupby("brand").std(ddof=0))
 
 #VISUALIZATIONS
 
+#NOTE: Visualizations showed be executed individually
+
 #Bar Chart
 df1['brand'].value_counts()[:10].plot(kind='barh')
 plt.xlabel("Count")
